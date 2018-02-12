@@ -15,7 +15,7 @@ public class Calculator {
         calculator.run();
     }
 
-    public void run(){
+    private void run(){
         System.out.println("Введите выражение:");
         enterExpression();
         replaceCommaToDot();
